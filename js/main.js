@@ -14,14 +14,6 @@ $(function(){
 		//get count for the loop which needs to accomodate the longest array:
 		//either the letters in the <textarea> or what's displayed on screen
 		longest = (typedLetters.length<elements.length) ? elements.length : typedLetters.length;
-		
-		/*
-		if (typedLetters.length<elements.length) {
-			longest = elements.length;
-		} else {
-			longest = typedLetters.length;
-		}
-		*/
 
 		//loop through everything
 		for(i=0; i<longest; i++) {
